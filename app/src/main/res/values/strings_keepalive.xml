@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="pref_keepalive_category">Background running</string>
+    <string name="pref_always_keep_alive_title">Always keep Termux running</string>
+    <string name="pref_always_keep_alive_summary">When on, Termux will keep running in the background even after you close the UI (foreground service).</string>
+</resources>

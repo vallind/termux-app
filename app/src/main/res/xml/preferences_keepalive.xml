@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+        android:key="pref_category_keepalive"
+        android:title="@string/pref_keepalive_category">
+
+        <androidx.preference.SwitchPreferenceCompat
+            android:key="key_always_keep_alive"
+            android:title="@string/pref_always_keep_alive_title"
+            android:summary="@string/pref_always_keep_alive_summary"
+            android:defaultValue="false" />
+    </PreferenceCategory>
+
+</PreferenceScreen>
